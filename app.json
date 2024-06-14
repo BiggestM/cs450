@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "CS450",
-    "slug": "CS450",
+    "name": "Bromine",
+    "slug": "bromine",
+    "scheme": "bromine",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jsm.cs450"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
